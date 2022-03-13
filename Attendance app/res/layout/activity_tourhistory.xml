@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context=".AddTourhistory">
+
+    <EditText
+        android:id="@+id/sname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SPORT NAME"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/coname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="COORDINATOR NAME"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sname"
+        app:layout_constraintVertical_bias="0.313"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/coachName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="COACH NAME"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/coname"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/cmobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:hint="COACH MOBILE NUMBER"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/cmName"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/winner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:hint="WINNER "
+        app:layout_constraintTop_toBottomOf="@+id/cmobilenumber"
+
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.584"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/addtournament"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="108dp"
+        android:gravity="center"
+        android:text="ADD TOURNAMENT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/winner"
+        app:layout_constraintTop_toTopOf="parent"
+
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

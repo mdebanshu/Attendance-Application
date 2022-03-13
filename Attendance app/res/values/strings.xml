@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">attendanceApp</string>
+    <string name="username">username</string>
+    <string name="password">Password</string>
+    <string name="login_as_parent_student">login as parent or student</string>
+    <string name="login_as_coach">login as coach</string>
+    <string name="login_as_admin">login as admin</string>
+    <string name="title_activity_register">register</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_addstudent">addstudent</string>
+    <string name="title_activity_tourhistory">Tourhistory</string>
+    <string name="title_activity_view_tourhistory">view_tourhistory</string>
+
+    <string-array name="UserType">
+        <item>Login as Parent/Student</item>
+        <item>Login as Coach</item>
+        <item>Login as Admin</item>
+    </string-array>
+</resources>
